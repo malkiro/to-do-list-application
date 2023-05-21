@@ -1,0 +1,154 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bc73eb;
+  width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.top {
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.main form input[type="text"] {
+  padding: 6px;
+  width: 70%;
+  border: 2px solid;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.main form input[type="text"]:focus,
+.main form button[type="submit"]:focus {
+  outline: none;
+}
+
+.main form button[type="submit"] {
+  background-color: #d1a0f0;
+  border: none;
+  font-weight: bold;
+  width: 140px;
+  border: 2px solid;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.toDoItemList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.toDoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #d1a0f0;
+  padding: 0px 20px;
+  border-radius: 8px;
+  border: 1px solid cornflowerblue;
+}
+
+.taskName {
+  width: 75%;
+  margin: 10px 0px !important;
+}
+
+.toDoItem button {
+  border: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.btnTaskUpdate {
+  background-color: goldenrod;
+}
+
+.btnTaskDelete {
+  background-color: red;
+  color: #fff;
+}
+
+.updateForm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.updateInput {
+  width: 80%;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border: 1px solid #eee;
+  padding: 8px;
+  outline: none;
+}
+
+.modelHeader {
+  background-color: #bc73eb;
+  border: 0px;
+}
+
+
+.modelBody {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+button.btn-close {
+  background-color: #DC3545;
+  opacity: 1;
+}
+
+.updateFormButtons {
+  display: flex;
+  width: 50%;
+  float: right;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
